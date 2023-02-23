@@ -1,0 +1,14 @@
+.item {
+  margin-bottom: 10px;
+  opacity: 0;
+  -webkit-animation: fadeIn .5s linear forwards;
+  -moz-animation: fadeIn .5s linear forwards;
+  animation: fadeIn .5s linear forwards;
+}
+
+/* you need to define the fadeIn keyframe property for it to work */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
